@@ -1,4 +1,19 @@
 .page-header {
-  background: $main-white;
-  font-family: $font-face2;
+  background-color: $main-white;
+  .page-header__logo {
+    width: 101px;
+    height: 84px;
+  }
+}
+
+.main-nav {
+  &__wrapper {
+    width: 282px;
+  }
+  &__list {
+    list-style: none;
+  }
+  &__link {
+    text-decoration: none;
+  }
 }
