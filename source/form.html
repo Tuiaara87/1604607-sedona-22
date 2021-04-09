@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Форма</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="page-main">
+
+  <header class="page-header">
+    <a href="#" class="page-header__logo">
+      <img src="img/logo/logo-sedona.svg" width="101" height="84" alt="город Седона">
+    </a>
+    <div class="main-nav">
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <div class="wrapper">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">
+              главная
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">
+              фото и видео
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">
+              форма отзыва
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">
+              html academy
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section class="poster">
+    <h1 class="visually-hidden">sedona-form</h1>
+    <img class="poster__town" src="img/banner/SEDONA.svg" width="229" height="39" alt="название города">
+  </section>
+
+  <div class="comment-us">
+    <div class="wrapper">
+      <h2 class="comment-us__title">оставьте свой отзыв</h2>
+      <div class="comment-us__text">помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами
+        достопримечательностях</div>
+    </div>
+  </div>
+
+  <div class="form">
+    <h2 class="form__title">представьтесь:</h2>
+    <div class="wrapper">
+      <form class="form__fill-in" action="#" method="GET" enctype="multipart/form-data">
+        <h3 class="form__user">имя*:</h3>
+        <input class="form__your-name" type="text" name="name" value="Петр" />
+      </form>
+      <form class="form__fill-in" action="#" method="GET" enctype="multipart/form-data">
+        <h3 class="form__user">фамилия*:</h3>
+        <input class="form__your-name" type="text" name="name" value="Иванов" />
+      </form>
+      <form class="form__fill-in" action="#" method="GET" enctype="multipart/form-data">
+        <h3 class="form__user">отчество:</h3>
+        <input class="form__your-name" type="text" name="name" value="Александрович" />
+      </form>
+    </div>
+  </div>
+
+  <div class="customer-contacts">
+    <div class="wrapper">
+      <h2 class="customer-contacts__title">контактная информация:</h2>
+      <h3 class="customer-contacts__info">контактный телефон*:</h3>
+      <form class="customer-contacts__contact" action="#" method="GET" enctype="multipart/form-data">
+        <input class="customer-contacts__add-info" type="number" name="#" value="введите телефон">
+        <h3 class="customer-contacts__info">электронная почта*:</h3>
+        <input class="customer-contacts__add-info" type="text" name="#" value="введите e-mail">
+      </form>
+    </div>
+  </div>
+
+  <div class="feedback">
+    <div class="wrapper">
+      <h2 class="feedback__title">ваше общее впечатление:</h2>
+      <p><input class="feedback__radio" type="radio" name="impression" value="positive" />Скорее положительное</p>
+      <p><input class="feedback__radio" type="radio" name="impression" value="negative" />Скорее отрицательное</p>
+      <p><input class="feedback__radio" type="radio" name="impression" value="unknown" />Затрудняюсь ответить</p>
+    </div>
+  </div>
+
+  <div class="sights-of-sedona">
+    <div class="wrapper">
+      <h2 class="sights-of-sedona__title">посещенные достопримечательности:</h2>
+      <p><input class="sights-of-sedona__checkbox" type="checkbox" name="sights" value="bridge" />Мост Дьявола</p>
+      <p><input class="sights-of-sedona__checkbox" type="checkbox" name="sights" value="mountain" />Гора-Колокол</p>
+      <p><input class="sights-of-sedona__checkbox" type="checkbox" name="sights" value="park" />Слайд-парк</p>
+      <p><input class="sights-of-sedona__checkbox" type="checkbox" name="sights" value="empty" /></p>
+    </div>
+  </div>
+
+  <div class="share">
+    <div class="wrapper">
+      <h2 class="share__title">опишите свои эмоции:</h2>
+      <form class="share__thoughts" action="#" method="POST" enctype="multipart/form-data">
+        <input class="share__describe" type="text" name="name" value="опишите подробно все свои восторги" />
+      </form>
+    </div>
+  </div>
+
+  <div class="button">
+    <button class="button__review">отправить отзыв</button>
+  </div>
+
+  <footer class="footer">
+    <div class="footer__map">
+      <!-- <img src="../source/img/icons/" -->
+      <p>#visitsedona</p>
+    </div>
+
+    <div class="social">
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link--twitter" href="#">мы в твиттере</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link--facebook" href="#">мы в фейсбук</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link--youtube" href="#">мы на ютуб</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="developed">
+      <h2 class="developed__title">разработано</h2>
+      <img class="developed__icon" src="img/htmlacademy.svg" width="27" height="34" alt="htmlacademy">
+    </div>
+  </footer>
+</body>
+
+
+
+</html>
