@@ -1,0 +1,85 @@
+.video-sedona {
+  margin-top: 32px;
+  &__container {
+    margin-bottom: 33px;
+    margin-left: 26px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    line-height: $lh;
+    font-size: $fs3;
+    text-align: center;
+  }
+  &__text {
+    line-height: $lh4;
+    font-size: $fs2;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__block {
+    width: 280px;
+    height: 45px;
+    background: $coal;
+    opacity: 0.6;
+    margin-top: -49px;
+    margin-left: 20px;
+    position: relative;
+  }
+  &__scale {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+  }
+  &__slider {
+    position: absolute;
+    left: 56px;
+    top: 17px;
+  }
+  &__block2 {
+    width: 280px;
+    height: 66px;
+    background-color: $smoke;
+    margin-left: 20px;
+    position: relative;
+  }
+  &__replay {
+    position: absolute;
+    bottom: 22px;
+    left: 25px;
+    cursor: pointer;
+    &:hover {
+      color: $dark-grey;
+    }
+    &:active {
+      color: $dark-grey;
+      opacity: 0.3;
+    }
+  }
+  &__subtitles {
+    position: absolute;
+    left: 174px;
+    top: 23px;
+    cursor: pointer;
+    &:hover {
+      color: $dark-grey;
+    }
+    &:active {
+      color: $dark-grey;
+      opacity: 0.3;
+    }
+  }
+  &__fullscreen {
+    position: absolute;
+    left: 237px;
+    top: 23px;
+    cursor: pointer;
+    &:hover {
+      color: $dark-grey;
+    }
+    &:active {
+      color: $dark-grey;
+      opacity: 0.3;
+    }
+  }
+}

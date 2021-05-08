@@ -1,0 +1,29 @@
+.button {
+  margin-top: 27px;
+  margin-bottom: 40px;
+  border: none;
+  &__review {
+    width: 280px;
+    height: 58px;
+    background-color: $sky;
+    border: none;
+    color: $main-white;
+    font-size: $fs3;
+    line-height: $lh;
+    font-family: $regular;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      background-color: $blue;
+    }
+    &:active {
+      // background-color: rgba(229, 229, 229, 0.5);
+      background-color: $sky;
+      color: rgba(255, 255, 255, 0.3);
+    }
+  }
+  &:disabled {
+    background-color: $ligh-grey;
+    color: $main-white;
+  }
+}

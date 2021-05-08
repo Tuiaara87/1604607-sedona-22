@@ -1,0 +1,42 @@
+.social {
+  margin-top: 33px;
+  margin-left: 84px;
+  margin-bottom: 45px;
+  &__list {
+    display: flex;
+    column-gap: 6px;
+    cursor: pointer;
+  }
+  a {
+    display: inline-block;
+    height: 48px;
+    width: 46px;
+    background-color: $sky;
+    text-align: center;
+    transition: 0.3s;
+    &:hover {
+      background-color: $blue;
+    }
+  }
+  a img {
+    margin-top: 16px;
+  }
+  &__facebook {
+    margin-top: 13px;
+  }
+  &__youtube {
+    margin-top: 17px;
+  }
+  img.social__twitter:active {
+    color: $main-white;
+    opacity: 0.3;
+  }
+  img.social__facebook:active {
+    color: $main-white;
+    opacity: 0.3;
+  }
+  img.social__youtube:active {
+    color: $main-white;
+    opacity: 0.3;
+  }
+}

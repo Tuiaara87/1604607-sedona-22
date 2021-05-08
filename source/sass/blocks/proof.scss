@@ -1,0 +1,31 @@
+.proof {
+  height: 211px;
+  background-color: $sky;
+  color: $main-white;
+  &__box {
+    padding-top: 55px;
+    text-align: center;
+  }
+  &__title {
+    font-size: $fs;
+    line-height: $lh;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: $fs2;
+    line-height: $lh4;
+    text-transform: uppercase;
+  }
+  &__range {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: $fs2;
+    line-height: $lh4;
+    text-transform: uppercase;
+  }
+}

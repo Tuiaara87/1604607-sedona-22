@@ -1,0 +1,39 @@
+.photos {
+  margin-left: 20px;
+  &__content {
+    font-size: $fs2;
+    line-height: $lh2;
+    margin: 0;
+    text-transform: uppercase;
+    margin-top: 11px;
+    font-weight: bold;
+  }
+  &__author {
+    font-size: $fs2;
+    line-height: $lh2;
+    padding: 0;
+    margin: 0;
+  }
+  &__icon-like-number {
+    margin-right: 14px;
+    font-size: $fs2;
+    line-height: $lh2;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &__box {
+    display: flex;
+    column-gap: 14px;
+    margin-bottom: 21px;
+    margin-top: 10px;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+  &__line {
+    border-bottom: 1px solid $ligh-grey;
+    width: 320px;
+    margin-bottom: 22px;
+  }
+}
