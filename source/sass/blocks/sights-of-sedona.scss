@@ -1,0 +1,56 @@
+.sights-of-sedona {
+  &__input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  &__box {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    box-shadow: 0 0 0 0.1em $smoke;
+    margin-left: -40px;
+    background-color: $smoke;
+    border-radius: 3px;
+    &:hover {
+      background-color: $ligh-grey;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    &:active {
+      background-color: $grey2;
+      opacity: 0.2;
+    }
+  }
+  &__label.option {
+    padding-left: 50px;
+    margin-bottom: 54px;
+    display: flex;
+    column-gap: 30px;
+    font-size: $fs;
+    line-height: $lh;
+    font-weight: bold;
+  }
+  &__title {
+    text-align: center;
+    font-size: $fs;
+    line-height: $lh;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+}
+.sights-of-sedona__input:checked + .sights-of-sedona__box {
+  background-image: url(../img/layers/checked.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  &:hover {
+    background-color: $ligh-grey;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  &:active {
+    background-color: $grey2;
+    opacity: 0.2;
+  }
+}

@@ -1,0 +1,25 @@
+.developed {
+  margin-left: 80px;
+  margin-bottom: 26px;
+  &__title {
+    font-size: $fs2;
+    line-height: $lh;
+    text-transform: uppercase;
+    margin-left: 18px;
+  }
+  &__box {
+    display: flex;
+    column-gap: 7px;
+  }
+  &__icon {
+    margin-top: 12px;
+    cursor: pointer;
+    &:hover path {
+      fill: $light-blue;
+    }
+    &:active {
+      color: $coal;
+      opacity: 0.3;
+    }
+  }
+}

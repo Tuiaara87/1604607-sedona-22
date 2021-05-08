@@ -1,0 +1,23 @@
+.footer {
+  &__map-link {
+    min-width: 100%;
+    min-height: 350px;
+  }
+}
+.visit {
+  &__img {
+    margin-top: 48px;
+    margin-left: 78px;
+  }
+}
+.social {
+  &__link {
+    text-decoration: none;
+  }
+}
+.developed {
+  &__title {
+    font-family: $regular;
+    font-size: $fs2;
+  }
+}

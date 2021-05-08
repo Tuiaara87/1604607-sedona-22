@@ -1,0 +1,27 @@
+.visually-hidden {
+  display: none;
+}
+
+.main-title {
+  margin-bottom: 22px;
+  text-align: center;
+  &__container-1 {
+    height: 137px;
+  }
+  &__title {
+    font-size: $fs;
+    line-height: $lh;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  &__text {
+    font-size: $fs2;
+    line-height: $lh4;
+    text-transform: uppercase;
+  }
+  &__line {
+    border-bottom: 1px solid $ligh-grey;
+    width: 320px;
+    margin-top: 20px;
+  }
+}

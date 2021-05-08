@@ -1,0 +1,77 @@
+.feedback {
+  &__title {
+    text-align: center;
+    font-size: $fs;
+    line-height: $lh;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+  &__radio {
+    width: 48px;
+    height: 48px;
+    font-family: $regular;
+    font-weight: bold;
+    background-color: $smoke;
+    margin-right: 26px;
+  }
+  input.feedback__radio {
+    margin-left: 20px;
+    display: none;
+  }
+  &__line {
+    border-bottom: 1px solid $ligh-grey;
+    margin-bottom: 15px;
+    padding-top: 31px;
+  }
+  &__sight {
+    margin-left: 20px;
+  }
+}
+.feedback__label {
+  font-size: $fs;
+  line-height: $lh;
+  font-weight: 700;
+  position: relative;
+  padding-left: 60px;
+  display: block;
+  margin-bottom: 35px;
+  &:hover {
+    &::before {
+      background-color: $ligh-grey;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+  }
+  &:active {
+    &::before {
+      background-color: $grafite;
+      opacity: 0.3;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+  }
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: $smoke;
+    box-sizing: border-box;
+  }
+}
+.feedback__radio {
+  display: none;
+  &:checked + .feedback__label::before {
+    background: #333333;
+    border: 15px solid $smoke;
+  }
+  &:hover {
+    background-color: $ligh-grey;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+}

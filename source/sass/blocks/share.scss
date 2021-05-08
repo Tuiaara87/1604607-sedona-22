@@ -1,0 +1,27 @@
+.share {
+  &__title {
+    text-align: center;
+    font-size: $fs;
+    line-height: $lh;
+    text-transform: uppercase;
+  }
+  &__describe {
+    width: 279px;
+    height: 160px;
+    background-color: $smoke;
+    border: none;
+  }
+  // input.share__describe {
+  //   font-size: $fs;
+  //   line-height: $lh;
+  //   font-weight: 700;
+  // }
+}
+textarea.share__describe {
+  font-size: $fs;
+  line-height: $lh;
+  font-weight: bold;
+  color: $coal;
+  padding-left: 21px;
+  padding-top: 13px;
+}
