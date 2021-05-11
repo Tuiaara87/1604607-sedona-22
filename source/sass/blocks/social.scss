@@ -1,11 +1,11 @@
 .social {
   margin-top: 33px;
-  margin-left: 84px;
   margin-bottom: 45px;
   &__list {
     display: flex;
     column-gap: 6px;
     cursor: pointer;
+    justify-content: center;
   }
   a {
     display: inline-block;
