@@ -30,6 +30,8 @@
     font-size: $fs;
     line-height: $lh;
     font-weight: bold;
+    display: flex;
+    align-items: center;
   }
   &__title {
     text-align: center;

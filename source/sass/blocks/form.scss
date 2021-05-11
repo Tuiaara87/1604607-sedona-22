@@ -24,6 +24,7 @@
     font-size: $fs;
     line-height: $lh;
     outline: none;
+    box-sizing: border-box;
     &:hover {
       background-color: $ligh-grey;
       cursor: pointer;
