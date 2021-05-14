@@ -3,24 +3,25 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 56px;
+  // height: 56px;
+  height: 218px;
   position: relative;
-  // margin-top: 220px;
   margin-top: 20px;
-
   &__logo-pic {
     position: absolute;
     right: 0;
     left: 0;
     margin: 0 auto;
-    top: -17px;
+    // top: -17px;
+    top: 218px;
     z-index: 1;
   }
   &__menu {
     position: absolute;
-    right: 20px;
-    top: 17px;
-    bottom: 17px;
+    // right: 20px;
+    // top: 17px;
+    // bottom: 17px;
+    right: 270px;
     &:hover {
       color: $light-blue;
     }
